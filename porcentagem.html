@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<script>
+    function pulalinha() {
+    document.write("<br>");
+    document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulalinha();
+    }
+
+    var valor1 = parseFloat(prompt("Primeiro Valor")); 
+    var porcento1 = parseFloat(prompt("porcentagem do primeiro valor"));
+    var valor2 = parseInt(prompt("Segundo Valor")); 
+    //var porcento2 = parseFloat(prompt("porcentagem do segundo valor"));
+
+    
+    var Primeiro_calculo =  valor1;
+    var Segundo_Calculo =  porcento1 * valor2;
+    var Resultado = Segundo_Calculo / Primeiro_calculo  ; 
+    mostra("O Resultado é " + Resultado + "%");
+</script>
