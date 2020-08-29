@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+}
+main{
+    background-image: url('../image/fundo.jpg');
+    width: 800px;
+    height: 600px;
+    margin:0 auto;
+}
+
+figure{
+    margin:0 auto;
+    
+    
+}
+.Logomaior{
+    width: 452px;
+    height: 181px;
+    padding-top:114;
+}
+.logomenor{
+    width: 286px;
+    height: 117px;
+    padding-top: 27px;
+}
+.FundoPlayer{
+    background-image: url('../image/play.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 227px;
+    height: 114px;
+    margin: 0 auto;
+    margin-top: 85px;
+}
+
+.FundoPlayer:hover{
+    background-image: url('../image/play-hover.png');
+}
+
+.Player{
+    text-align: center;
+}
+
+.Player a{
+    font-size: 80px;
+    opacity: 0;
+}
+
+.FundoDificuldade{
+    background-image: url('../image/fundo-dificuldade.jpg');
+}
+
+.MenuDificuldade{
+    width: 153px;
+    padding-top: 54px;
+    margin: 0 auto;
+}
+
+.MenuDificuldade ul li{
+    list-style-type: none;
+    list-style-position: outside;
+    margin-left:-60px;
+}
